@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Profile from './profile'
-import Interests from './interests'
-import Settings from './settings'
+import Interests from './Interests'
+import Settings from './Settings'
 import "./form.css"
 const Form_table = () => {
     const[activetab,setActiveTab]=useState(0);
